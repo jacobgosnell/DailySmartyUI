@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Logo from './logo';
-import SearchBar from './searchbar';
+import SearchBar from './searchBar';
 
 import { connect } from "react-redux";
 import * as actions from "../actions";

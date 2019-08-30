@@ -1,8 +1,16 @@
 import React, { Componet } from 'react';
 
 import { connect } from 'react-redux';
+import Post from './post';
 
 class ResultsPosts extends Component {
+
+  renderPosts() {
+    const posts = this.props.posts.map((post, index) => {
+      return <Post key={index} {...post}/>
+    })
+  }
+
   render() {
     return (
       <div className="results-posts">
@@ -18,7 +26,8 @@ class ResultsPosts extends Component {
 
 function mapStateToProps(state) {
   return {
-    state
+    posts: state.posts.resultsPosts
   }
 }
+
 export default connect(mapStateToProps)(ResultsPosts);

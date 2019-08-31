@@ -18,17 +18,6 @@ body {
   justify-content: center;
 }
 
-.home {
-  height: 100vh;
-  width: 66vw;
-
-  display: grid;
-  align-content: space-around;
-  justify-items: center;
-
-  // grid-template-rows: 1fr 2fr 1fr;
-}
-
 .logo-main,
 .recent-posts {
   display: grid;
@@ -46,4 +35,7 @@ $color-gray-two: #b3b3b3;
 $color-blue-one: #0079ff;
 
 @import "./searchBar";
+@import "./home";
 @import "./recentPosts";
+@import "./results";
+@import "./mixins";

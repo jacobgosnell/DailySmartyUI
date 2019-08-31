@@ -28,6 +28,12 @@ body {
   // grid-template-rows: 1fr 2fr 1fr;
 }
 
+.logo-main,
+.recent-posts {
+  display: grid;
+  justify-items: center;
+}
+
 $color-gray-one: #666666;
 $color-gray-two: #b3b3b3;
 

@@ -1,5 +1,6 @@
 import react, { Component } from 'react';
 import AnimateHeight from 'react-animate-height';
+import { throws } from 'assert';
 
 class Post extends Component {
 
@@ -18,13 +19,29 @@ class Post extends Component {
     return topics;
   }
 
+  getNameForPostLink(string) {
+    var n = str.lastIndexOf('/');
+    var link = str.substring(n + 1, str.length);
+
+    if ((n + 1) == str.length) {
+      link = str.slice(0, n);
+      n = link.lastIndexOf('/');
+      link = str.substring(n + 1, str.length - 1);
+    }
+
+    if(link.includes('.html')) {
+      
+    }
+    return link;
+  }
+
   renderLinks () {
     let Links = this.props.postLinks.map((post_link, index) => {
       return (
         <div className="post-link" key={index}>
           <div className="post-link__box">
             <div className="post-link__link">
-              <a href={post_link.link_url}>Useful Link #{index + 1}</a>
+              <a href={post_link.link_url}>{this.getNameForPostLink(post_link.link_url)}</a>
             </div>
           </div>
         </div>

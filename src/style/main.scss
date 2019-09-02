@@ -35,6 +35,10 @@ $color-gray-two: #b3b3b3;
 $color-gray-three: #d8d8d8;
 $color-blue-one: #0079ff;
 
+.no-content {
+  color: $color-gray-one;
+}
+
 @import "./searchBar";
 @import "./home";
 @import "./recentPosts";

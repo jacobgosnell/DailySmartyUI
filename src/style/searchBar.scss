@@ -1,5 +1,6 @@
 .search-bar {
   display: grid;
+
   .search-bar__wrapper {
     display: grid;
     grid-row-gap: 23px;
@@ -8,18 +9,15 @@
     input {
       padding-left: 35px;
       color: $color-gray-one;
-      box-shadow: 2px 3px 28px 1px rgba(0, 0, 0, 0.1);
+      box-shadow: 2px 3px 20px 1px rgba(0, 0, 0, 0.1);
       border: 0px solid transparent;
       border-radius: 5px;
 
-      height: 118px;
-      font-size: 40px;
-
-      transition: all 0.2 ease;
+      transition: all 0.2s ease;
 
       &::placeholder {
         color: $color-gray-two;
-        font-family: "Font Awesome\ 5 free", "Lato", "Arial", "Helvetica",
+        font-family: "Font Awesome\ 5 Free", "Lato", Arial, Helvetica,
           sans-serif;
         font-weight: 600;
       }
@@ -45,8 +43,7 @@
   input {
     height: 118px;
     font-size: 40px;
-
-    @media screen and (max-width: 600) {
+    @media screen and (max-width: 600px) {
       font-size: 23px;
       height: 59px;
     }

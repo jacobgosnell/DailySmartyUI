@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 // Components
 import Logo from "./logo";
-import SearchBar from "./searchbar";
+import SearchBar from "./searchBar";
 import RecentPosts from "./recentposts";
 
 // Importing Redux

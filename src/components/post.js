@@ -1,6 +1,5 @@
-import react, { Component } from 'react';
+import React, { Component } from 'react';
 import AnimateHeight from 'react-animate-height';
-import { throws } from 'assert';
 
 class Post extends Component {
 

@@ -1,16 +1,5 @@
-.logo-main {
-  img {
-    width: 105px;
-    height: 105px;
-  }
-}
-
-.post-topic {
-  margin: 0 4px;
-}
-
 body {
-  font-family: "Lato" sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .app-wrapper {
@@ -29,7 +18,6 @@ ul {
   padding: 0;
   list-style-type: none;
 }
-
 $color-gray-one: #666666;
 $color-gray-two: #b3b3b3;
 $color-gray-three: #d8d8d8;
@@ -39,7 +27,6 @@ $color-blue-one: #0079ff;
   color: $color-gray-one;
   font-size: 14px;
   line-height: 17px;
-
 }
 
 @import "./searchBar";

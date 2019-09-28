@@ -32,14 +32,14 @@
   }
 
   .result-post__title a {
-    color: $color-grey-one;
+    color: $color-gray-one;
     font-size: 18px;
     line-height: 22px;
   }
 
   .result-post__links {
     display: flex;
-    height: 70px;
+    // height: 70px;
   }
 }
 
@@ -51,12 +51,12 @@
 
   .post-link__box {
     min-width: 70px;
-    background-color: $color-grey-three;
+    background-color: $color-gray-three;
     margin-right: 16px;
   }
 
   .post-link__link a {
-    color: $color-grey-one;
+    color: $color-gray-one;
     font-size: 14px;
     line-height: 17px;
   }

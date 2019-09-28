@@ -37,6 +37,9 @@ $color-blue-one: #0079ff;
 
 .no-content {
   color: $color-gray-one;
+  font-size: 14px;
+  line-height: 17px;
+
 }
 
 @import "./searchBar";

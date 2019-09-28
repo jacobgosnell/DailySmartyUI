@@ -34,4 +34,4 @@ SearchBar = reduxForm({
 
 SearchBar = withRouter(SearchBar);
 
-export default SearchBar
+export default SearchBar;

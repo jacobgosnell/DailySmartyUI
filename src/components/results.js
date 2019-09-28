@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Logo from './logo';
 import SearchBar from './searchBar';
+import ResultsPosts from './resultsposts';
 
 import { connect } from "react-redux";
 import * as actions from "../actions";

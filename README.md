@@ -1,6 +1,6 @@
 # DailySmarty UI Project
 
-https://react-redux-dailysmarty-ui.herokuapp.com/results
+https://react-redux-dailysmarty-ui.herokuapp.com/
 
 ## Tech Stack
 

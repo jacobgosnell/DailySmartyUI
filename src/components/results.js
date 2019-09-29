@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Logo from "./logo"
-import SearchBar from './searchBar';
+import SearchBar from './searchbar';
 import ResultsPosts from './resultsposts';
 
 import { connect } from 'react-redux';

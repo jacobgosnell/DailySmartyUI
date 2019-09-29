@@ -2,8 +2,6 @@
 
 https://react-redux-dailysmarty-ui.herokuapp.com/results
 
-> Provided for the students of the [Bottega Code School](https://bottega.tech/)
-
 ## Tech Stack
 
 This application uses a number of noticeable technologies, such as React, Redux, React-Router, Css Grid, Scss, Webpack, Axios, and Express.
@@ -24,3 +22,4 @@ npm run start
 
 After running these commands, you are now able to check out the code behind this app.
 
+> Provided for the students of the [Bottega Code School](https://bottega.tech/)
